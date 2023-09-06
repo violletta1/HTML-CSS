@@ -1,0 +1,17 @@
+h1 {
+    color: lightcoral
+}
+/* First option  */
+section article h1 {
+color: blue;
+}
+/* second option with id and class name id=# class=. */
+#news .hot-topic h1 {
+    color: blueviolet;
+}
+.red {
+    color: red;
+}
+section article {
+    color: pink;
+}
