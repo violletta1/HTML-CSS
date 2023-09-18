@@ -1,0 +1,24 @@
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  width: 350px;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  flex-basis: 120px;
+}
+.flex-container > div:nth-child(1) {
+  flex-shrink: 0; /* Box One gets a flex-grow value of 1 */
+}
+
+.flex-container > div:nth-child(2) {
+  flex-shrink: 1; /* Box Two gets a flex-grow value of 2 */
+}
+
+.flex-container > div:nth-child(3) {
+  flex-shrink: 2; /* Box Three gets a flex-grow value of 3 */
+}
