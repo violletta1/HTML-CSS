@@ -1,0 +1,40 @@
+@import url(https://use.fontawesome.com/releases/v6.4.0/css/all.css);
+
+
+body {
+    background-color: white;
+    padding: 50px;
+}
+
+.button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline: none;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    background-color: transparent;
+    border: 2px solid rgb(51, 51, 51);
+    font-size: 16px;
+    padding: 0.5em 1em;
+    border-radius: 5em;
+    cursor: pointer;
+}
+
+
+.button.fill {
+    background-color: #000;
+    color: rgb(251, 251, 251);
+    border: none;
+}
+
+.button.hover:hover {
+    border-color: rgb(0, 102, 0);
+    color: rgb(0, 102, 0);
+    /* transition: background-color 0.3s ease; */
+}
+
+.button.fill.hover:hover {
+    background-color: rgb(0, 102, 0);
+    color: white;
+    /* transition: background-color 0.3s ease; */
+    
+}

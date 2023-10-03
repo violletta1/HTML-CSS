@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+
+/* Style for table header cells (th) and table data cells (td) */
+th,td{
+     /* Border properties */
+    padding: 8px; /* Add padding for better readability */
+    text-align: left; /* Left-align text in cells */
+
+}
+th {
+    background-color: grey;
+    /* border-width: 1px;
+    border-style:  solid;
+    border-color:  gray; */
+}
+td {
+    border-width: 1px;
+    border-style:  solid;
+    border-color:  gray;
+}
+/* Style odd rows (tr) and cells (td) */
+table tr:nth-child(odd) td {
+    background-color: rgb(241, 241, 241); /* Background color for odd rows */
+}
+
+/* Hover effect for table rows */
+tbody tr:hover {
+    background: rgb(0, 0, 0); /* Background color on hover */
+    color: rgb(255, 255, 255); /* Text color on hover */
+}
