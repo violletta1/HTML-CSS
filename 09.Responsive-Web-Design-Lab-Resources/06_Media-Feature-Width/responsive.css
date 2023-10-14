@@ -1,0 +1,15 @@
+article {
+  width: 360px;
+  color: red;
+  background: none; /* Clear the background */
+  border: 2px solid blue;
+}
+
+
+/* Media query for maximum width (50rem) */
+@media (min-width: 30rem) and (max-width: 50rem) {
+  article {
+    background: yellow; /* Background color: yellow */
+  }
+}
+

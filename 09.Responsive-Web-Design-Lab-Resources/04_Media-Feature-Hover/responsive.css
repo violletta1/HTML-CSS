@@ -1,0 +1,13 @@
+/* Define the default styles for the element */
+code {
+  color: black;
+  background: white;
+}
+
+/* Use a media query for hover interactions */
+@media (hover: hover) {
+  code:hover {
+    color: white;
+    background: black;
+  }
+}

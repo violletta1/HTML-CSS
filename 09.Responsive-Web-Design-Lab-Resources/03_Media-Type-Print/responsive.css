@@ -1,0 +1,11 @@
+/* Define your default font size outside of any media query */
+body {
+  font-size: 30px;
+}
+
+/* Use a media query to change the font size when the screen width is less than 600px */
+@media print {
+  body {
+    font-size: 10px;
+  }
+}
